@@ -1,0 +1,57 @@
+#registro {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto; /* centra horizontalmente */
+  position: relative;
+}
+
+#registro h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+#registro label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555555;
+}
+
+#registro input[type="text"],
+#registro input[type="email"],
+#registro input[type="tel"],
+#registro input[type="date"],
+#registro select,
+#registro textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+#registro input[type="radio"] {
+  margin-right: 6px;
+}
+
+#registro button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#registro button:hover {
+  background-color: #388e3c;
+}

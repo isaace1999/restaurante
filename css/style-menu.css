@@ -1,0 +1,39 @@
+#menu h2 {
+  font-size: 26px;
+  color: green;
+  font-family: "Georgia", serif;
+  margin-bottom: 20px;
+  border-bottom: 2px solid green;
+  padding-bottom: 5px;
+}
+
+#menu h3 {
+  text-align: left; /* define la alineación del texto */
+  margin-bottom: 20px; /* establece el espacio requerido en la parte inferior de un elemento */
+  color: #333333; /* establece el color de letra utilizado para el texto */
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  background-color: #fdfdfd;
+  font-family: "Arial", sans-serif;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-image: linear-gradient(yellow, green);
+  color: #333;
+  font-weight: bold;
+}
+
+td {
+  color: #555;
+}
+

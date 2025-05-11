@@ -1,0 +1,64 @@
+#plato-semana {
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#plato-semana h2 {
+  color: green;
+  font-family: "Georgia", serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid green;
+  padding-bottom: 5px;
+}
+
+#plato-semana p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  font-family: "Verdana", sans-serif;
+  margin-bottom: 15px;
+}
+
+#plato-semana img {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+#plato-semana img:hover {
+  transform: scale(1.03);
+}
+
+#plato-semana audio {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+#plato-semana a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#plato-semana a:hover {
+  text-decoration: underline;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.imagenes img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}

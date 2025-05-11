@@ -1,0 +1,35 @@
+#especialidades {
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#especialidades h2 {
+  font-size: 26px;
+  color: green;
+  font-family: "Georgia", serif;
+  margin-bottom: 20px;
+  border-bottom: 2px solid green;
+  padding-bottom: 5px;
+}
+
+#especialidades dl {
+  margin: 0;
+}
+
+#especialidades dt {
+  font-weight: bold;
+  font-size: 20px;
+  color: #b03a2e;
+  margin-top: 15px;
+  font-family: "Verdana", sans-serif;
+}
+
+#especialidades dd {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+}
