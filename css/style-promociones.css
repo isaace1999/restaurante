@@ -1,8 +1,9 @@
 #promociones h2 {
-    font-size: 26px;
+    font-size: 20px;
+    text-align: center;
     color: green;
     font-family: "Georgia", serif;
-    margin-bottom: 20px;
+    margin: px 5px;
     border-bottom: 2px solid green;
     padding-bottom: 5px;
 }

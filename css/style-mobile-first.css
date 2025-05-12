@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+ body {
+ background-color: #87ceeb;
+ }
+
+ footer {
+  background-color: lightblue;
+  padding: 5px;
+  text-align: center;
+}
+}

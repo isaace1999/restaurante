@@ -1,9 +1,64 @@
 header {
+  background-color: whitesmoke;
+  padding: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  font-size: x-large;
+  color: #000;
+  margin: 5px;
+}
+
+.menu-principal {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Suaviza el desplazamiento en iOS */
+}
+
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 4px;
+  flex-wrap: nowrap; /* evita que los elementos salten de línea */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /* efecto de encaje */
+}
+
+.menu-principal ul li {
+  flex: 0 0 auto; /* evita que los items se estiren */
+  scroll-snap-align: start;
+}
+
+.menu-principal ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding: 5px 5px;
+  border-radius: 6px;
+  white-space: nowrap; /* evita que se corten las palabras */
+  transition: background-color 0.3s;
+}
+.container {
+  background-color: whitesmoke;
+  padding: 1px;
+  margin: 1px;
+  width: 95%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para pantallas grandes (PCs) */
+@media (min-width: 1024px) {
+header {
   background-image: linear-gradient(green, yellow);
   padding: 15px 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+header h1 {
+  font-size: 40px;
+}
 main {
   background-color: whitesmoke;
   padding: 30px;
@@ -76,11 +131,11 @@ p {
 
 .container {
   background-color: whitesmoke;
-  padding: 20px;
-  margin: 20px auto;
+  padding: 5px;
+  margin: 5px;
   width: 95%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+}
 

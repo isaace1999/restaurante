@@ -1,4 +1,41 @@
 #menu h2 {
+  font-size: 20px;
+  text-align: center;
+  color: green;
+  font-family: "Georgia", serif;
+  margin: 15px 5px;
+  border-bottom: 2px solid green;
+  padding-bottom: 5px;
+}
+
+table {w
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: #fdfdfd;
+  font-family: "Arial", sans-serif;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #e0e0e0;;
+  color: #333;
+  font-weight: bold;
+}
+
+td {
+  color: #555;
+}
+
+/* Estilos para pantallas grandes (PCs) */
+@media (min-width: 1024px) {
+#menu h2 {
   font-size: 26px;
   color: green;
   font-family: "Georgia", serif;
@@ -36,4 +73,4 @@ th {
 td {
   color: #555;
 }
-
+}
