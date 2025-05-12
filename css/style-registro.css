@@ -1,18 +1,21 @@
 #registro {
   background-color: #ffffff;
-  padding: 40px 30px;
+  padding: 15px 10px;
+  /* padding más compacto para pantallas pequeñas */
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 90%;
   max-width: 500px;
-  margin: 50px auto; /* centra horizontalmente */
+  margin: 30px auto;
   position: relative;
+  box-sizing: border-box;
 }
 
 #registro h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #333333;
+  font-size: 22px;
 }
 
 #registro label {
@@ -20,6 +23,7 @@
   margin-bottom: 8px;
   font-weight: bold;
   color: #555555;
+  font-size: 14px;
 }
 
 #registro input[type="text"],
@@ -34,6 +38,7 @@
   border: 1px solid #cccccc;
   border-radius: 6px;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 #registro input[type="radio"] {

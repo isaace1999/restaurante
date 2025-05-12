@@ -1,40 +1,46 @@
 #acceso {
   background-color: #ffffff;
-  padding: 40px 30px; /*También se le conoce como margen interno, establece el área de relleno para los cuatro lados de un elemento a la vez.*/
-  border-radius: 12px; /* sirve para redondear las esquinas (bordes) de un elemento */
+  padding: 15px 10px;
+  /* más compacto en móviles */
+  border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 90%;
+  /* usa 90% en móviles */
   max-width: 400px;
-  margin: 50px auto; /* centra horizontalmente */
+  margin: 30px auto;
   position: relative;
+  box-sizing: border-box;
 }
 
 #acceso h2 {
-  text-align: center; /* define la alineación del texto */
-  margin-bottom: 20px; /* establece el espacio requerido en la parte inferior de un elemento */
-  color: #333333; /* establece el color de letra utilizado para el texto */
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 20px;
 }
 
 #acceso label {
-  display: block; /**/
+  display: block;
   margin-bottom: 8px;
   font-weight: bold;
   color: #555555;
+  font-size: 14px;
 }
 
 #acceso input[type="text"],
 #acceso input[type="password"] {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #cccccc;
   border-radius: 6px;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 #acceso button {
   width: 100%;
-  padding: 12px;
+  padding: 6px;
   background-color: #4a90e2;
   border: none;
   border-radius: 6px;
