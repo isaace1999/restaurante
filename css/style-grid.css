@@ -1,0 +1,63 @@
+@media (min-width: 1024px) {
+    #grid-container {
+        height: 300px;
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr)
+    }
+
+    #grid-container div {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #quienes-somos {
+        grid-column: 1/4;
+    }
+
+    .h2menu {
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+    #platos-principales {
+        grid-column: 1/2;
+    }
+
+    #Bebidas {
+        grid-column: 2/2;
+    }
+
+    #Postres {
+        grid-column: 3/3;
+    }
+
+    #especialidades {
+        grid-column: 1/2;
+    }
+
+    #promociones {
+        grid-column: 2/2;
+    }
+
+    #plato-semana {
+        grid-column: 3/3;
+    }
+
+    #videos-relacionados {
+        grid-column: 1/2;
+    }
+
+    #acceso {
+        grid-column: 2/2;
+    }
+
+    #registro {
+        grid-column: 3/3;
+    }
+}
