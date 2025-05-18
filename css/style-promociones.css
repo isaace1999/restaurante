@@ -1,53 +1,47 @@
-.lomo-probre {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 20px 0;
+@media (max-width: 768px) {
+
+}
+#promociones h2 {
+    font-size: 20px;
+    text-align: center;
+    color: green;
+    font-family: "Georgia", serif;
+    margin: px 5px;
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
 }
 
-.lomo-probre img {
-    width: 40%;
-    height: auto;
+#promociones ul {
+    list-style-type: square;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
-    #promociones h2 {
-        font-size: 20px;
-        text-align: center;
-        color: green;
-        font-family: "Georgia", serif;
-        margin: px 5px;
-        border-bottom: 2px solid green;
-        padding-bottom: 5px;
-    }
+#promociones li {
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
 
-    #promociones ul {
-        list-style-type: square;
-        padding: 15px;
-        border-radius: 10px;
-        margin: 0 auto;
-    }
+.lomo-pobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
 
-    #promociones li {
-        font-family: 'Verdana', sans-serif;
-        font-size: 16px;
-        margin-bottom: 10px;
-        color: #333;
-    }
+.lomo-pobre img {
+  max-width: 300px;
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
 
-    .lomo-probre {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin: 20px 0;
-    }
-
-    .lomo-probre img {
-        width: 80%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    }
+.lomo-pobre img:hover {
+  transform: scale(1.05);
 }

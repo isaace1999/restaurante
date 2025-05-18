@@ -7,6 +7,8 @@
   width: 90%;
   /* usa 90% en móviles */
   max-width: 400px;
+  max-height: 400px;
+  overflow: auto; /* permite scroll si se excede */
   margin: 30px auto;
   position: relative;
   box-sizing: border-box;

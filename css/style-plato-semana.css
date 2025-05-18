@@ -22,15 +22,26 @@
   margin-bottom: 15px;
 }
 
-#plato-semana img {
-  margin: 10px;
+/* Contenedor de la galería */
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.imagenes img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
-#plato-semana img:hover {
-  transform: scale(1.03);
+.imagenes img:hover {
+  transform: scale(1.05);     /* Efecto de zoom suave */
 }
 
 #plato-semana audio {
@@ -47,18 +58,4 @@
 
 #plato-semana a:hover {
   text-decoration: underline;
-}
-
-.imagenes {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.imagenes img {
-  width: 40%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
