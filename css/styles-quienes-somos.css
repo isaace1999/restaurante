@@ -5,16 +5,16 @@ body {
 
 /* Estilos para la sección "Quienes somos" */
 #quienes-somos {
-  padding: 5x;
-  margin-top: 10px;
+  padding: 1px;
+  margin-top: 1px;
 }
 
 #quienes-somos h2 {
-  text-align: center;
-  color: #c0392b;
-  font-family: "Georgia", serif;
-  font-size: 28px;
-  margin-bottom: 5px;
+    margin: 0; /* Elimina todos los márgenes */
+    text-align: center;
+    color: #c0392b;
+    font-family: "Georgia", serif;
+    font-size: 28px;
 }
 
 #quienes-somos p {

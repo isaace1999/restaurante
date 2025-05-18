@@ -37,10 +37,10 @@ td {
 /* Estilos para pantallas grandes (PCs) */
 @media (min-width: 1024px) {
   #menu h2 {
+    margin: 0; /* Elimina todos los márgenes */
     font-size: 26px;
     color: green;
     font-family: "Georgia", serif;
-    margin-bottom: 20px;
     border-bottom: 2px solid green;
     padding-bottom: 5px;
   }
